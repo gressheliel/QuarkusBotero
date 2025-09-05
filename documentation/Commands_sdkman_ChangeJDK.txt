@@ -1,0 +1,19 @@
+Instalar GraalVM con SDKMAN
+	sdk install java 24.0.2-graalce
+	sdk install java 17.0.12-oracle
+	sdk install java 21.0.8-oracle
+	sdk install java 24.0.2-oracle
+
+Listar JDK con SDKMAN
+	sdk list java
+
+Cambiar JDK
+	sdk use java 24.0.2-graalce
+	java -version
+	
+	sdk use java 21.0.8-oracle
+	java -version
+	
+
+
+	

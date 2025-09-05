@@ -1,0 +1,13 @@
+Compilar y correr HolaMundo.java (Mismo nivel HolaMundo.java)
+	javac HolaMundo.java 
+	native-image HolaMundo
+	./holaMundo
+	
+Compilar y correr Maven App
+	.../QuarkusBotero/code/code-with-quarkus-graalvm$ ./mvnw package -Pnative
+	.../QuarkusBotero/code/code-with-quarkus-graalvm/target/ ./code-with-quarkus-01-1.0.0-SNAPSHOT-runner
+	
+Abrir browser 
+	http://localhost:8080/hello/custom/juan
+	http://localhost:8080/hello
+	
